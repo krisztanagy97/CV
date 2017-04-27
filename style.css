@@ -24,14 +24,35 @@ width: 60%;
 height:790px;
 }
 
-.heading-title{
- border-radius: 5px 50%;
- background: radial-gradient(white,white);
- padding: 20px; 
+.name{
+ border-radius: 10px 5px;
+ background: radial-gradient(whitesmoke, darkorange);
+ padding: 20px;
  margin: 30px 30px 0px 15px;
  height: 20px; 
+ text-align: center; 
+ box-shadow: 2px 2px 5px 0 rgb(255,255,255);
+ font: bold 30px/25px Georgia, serif;
+}
+
+.education{
+ border-radius: 30% 20px 30% 20px;
+ background: radial-gradient(whitesmoke, darkorange);
+ padding: 20px; 
+ margin: 30px 30px 0px 15px;
+ height: 80px; 
  text-align: center;  
- color: white;
- text-shadow: 1px 1px 5px black;  
- box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ box-shadow: 2px 2px 5px 0 rgba(255,155,0, 0,3);
+ font: bold 20px/30px Georgia, serif;
+}
+
+.projects{
+ border-radius: 30% 20px 30% 20px;
+ background: radial-gradient(whitesmoke, darkorange);
+ padding: 20px; 
+ margin: 30px 30px 0px 15px;
+ height: 150px; 
+ text-align: center;  
+ box-shadow: 2px 2px 5px 0 rgba(255,155,0, 0,3);
+ font: bold 20px/30px Georgia, serif;
 }

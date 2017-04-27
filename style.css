@@ -1,0 +1,37 @@
+body{
+background-image: url("backim.jpg");
+}
+
+/****************/
+/* PICTURE ZONE */
+/****************/
+.picture{
+background-image: url("Me.jpg");
+background-size: 580px;  
+float: left;
+width: 40%;
+height:790px;
+
+}
+
+
+/**************/
+/*TEXTING ZONE*/
+/**************/
+.text{
+float: right;
+width: 60%;
+height:790px;
+}
+
+.heading-title{
+ border-radius: 5px 50%;
+ background: radial-gradient(white,white);
+ padding: 20px; 
+ margin: 30px 30px 0px 15px;
+ height: 20px; 
+ text-align: center;  
+ color: white;
+ text-shadow: 1px 1px 5px black;  
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
